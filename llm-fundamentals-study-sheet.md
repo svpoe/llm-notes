@@ -1,5 +1,7 @@
 # LLM Fundamentals — Study Sheet
 
+Study notes - stylistic/readability formatting added w/ Claude 
+
 ## Step 1) Tokenization — BPE, subword units, fixed vocabulary
 
 - We need to turn text into numbers for the NN
