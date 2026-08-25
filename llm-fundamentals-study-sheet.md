@@ -1,6 +1,5 @@
 # LLM Fundamentals — Study Sheet
 
-Study notes - stylistic/readability formatting added w/ Claude 
 
 ## Step 1) Tokenization — BPE, subword units, fixed vocabulary
 
@@ -72,6 +71,10 @@ Use when we need additional context, like info on company private documents.
 - Insert the retrieved relevant text into the model's context window alongside the user's question (with instructions like "answer using the following context")
 - This helps hallucination! The model isn't asked to recall from just its trained weights. Instead it reads and summarizes text directly in the context
 
+## Note 
+Study notes - stylistic/readability formatting added w/ Claude 
+
+
 ---
 
 ## Papers to refer to 
@@ -93,3 +96,6 @@ Use when we need additional context, like info on company private documents.
 
 - **RAG (Retrieval-Augmented Generation section):**
   Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., Riedel, S., & Kiela, D. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. NeurIPS 2020. https://arxiv.org/abs/2005.11401
+
+
+
